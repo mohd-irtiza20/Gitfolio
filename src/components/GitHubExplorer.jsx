@@ -316,7 +316,7 @@ export default function GitHubExplorer() {
                                         value={username}
                                         onChange={(e) => setUsername(e.target.value)}
                                         onKeyDown={(e) => e.key === 'Enter' && handleSearch(e)}
-                                        placeholder="Enter GitHub username (e.g., torvalds, octocat)..."
+                                        placeholder="Enter GitHub username"
                                         className="w-full px-4 sm:px-6 py-3 sm:py-4 bg-gray-900/90 backdrop-blur-xl border border-purple-500/30 rounded-2xl text-white placeholder-gray-400 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/30 transition-all text-sm sm:text-base"
                                     />
                                     <button
