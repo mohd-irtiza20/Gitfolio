@@ -1,47 +1,70 @@
-# GitHub User Search
+# Getting Started with Create React App
 
-GitHub User Search is a simple web application that allows users to search for GitHub users by their usernames and view their basic information along with some of their repositories.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Available Scripts
 
-- **User Search**: Users can enter a GitHub username in the search bar and retrieve information about that user.
-- **User Details Display**: Once a username is entered and found, the application displays the user's avatar, name, bio, followers count, following count, and the number of public repositories.
-- **Repository Display**: The application also displays up to 5 repositories of the searched user, along with links to those repositories.
+In the project directory, you can run:
 
-## Technologies Used
+### `npm start`
 
-- **HTML**: Used for structuring the web page.
-- **CSS**: Used for styling the web page and making it visually appealing.
-- **JavaScript**: Used for implementing the functionality of fetching user details and repositories from the GitHub API.
-- **GitHub API**: Used to fetch user details and repositories based on the entered username.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Installation
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-1. Clone the repository:
+### `npm test`
 
-   ```bash
-   git clone https://github.com/mohd-irtiza20/GitHub-Explorer.git
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-2. Navigate to the project directory:
-   ```
-   cd GitHub-Explorer
-3. Open the `index.html` file in your preferred web browser.  
+### `npm run build`
 
-## Usage
-1. Open the web page in your web browser.
-2. Enter the GitHub username you want to search for in the provided input field.
-3. Click on the search button or press Enter.
-4. Wait for the application to fetch and display the user's details and repositories.
-5. Explore the user's information and repositories.
-6. You can click on the repository links to visit them on GitHub.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Live Project
-The live version of this project can be accessed [here](https://mohdirtiza-github-profile-finder.netlify.app/).
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## License
+### `npm run eject`
 
-This project is licensed under the MIT License.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Copyright (c) 2025 Mohd Irtiza
-GitHub: [mohd-irtiza20](https://github.com/mohd-irtiza20)
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
