@@ -201,7 +201,7 @@ export default function GitHubExplorer() {
           </div>
         </div>
         <div style="margin-top: 24px; text-align: center; color: #9ca3af; font-size: 14px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1);">
-          <p style="margin: 0;">Generated from GitHub Explorer • github.com/${userData.login}</p>
+          <p style="margin: 0;">Generated from Gitfolio • github.com/${userData.login}</p>
         </div>
       `;
 
@@ -297,7 +297,7 @@ export default function GitHubExplorer() {
                                 </svg>
                             </div>
                             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent animate-gradient">
-                                GitHub Explorer
+                                Gitfolio
                             </h1>
                         </div>
 
