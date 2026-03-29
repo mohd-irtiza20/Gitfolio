@@ -207,7 +207,7 @@ export default function GitHubExplorer() {
             </main>
 
                 {/* Flat, Block-level Footer */}
-                <div className="w-full bg-[#0d1117] py-24 mb-10 border-t border-[#30363d]">
+                <div className="w-full bg-[#0d1117] py-20 border-t border-[#30363d]">
                     <footer className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between text-[#8b949e] text-sm gap-8 text-center md:text-left">
                         <div className="flex flex-col gap-2">
                             <p className="font-bold text-white text-2xl tracking-tight">
@@ -218,18 +218,31 @@ export default function GitHubExplorer() {
                             </p>
                         </div>
                         <div className="flex gap-10 font-bold uppercase tracking-[0.2em] text-[10px]">
-                            {['LinkedIn', 'GitHub', 'Twitter'].map(social => (
-                                <a 
-                                    key={social}
-                                    href={`https://${social.toLowerCase()}.com`}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="hover:text-[#58a6ff] transition-all duration-300 hover:scale-110"
-                                >
-                                    {social}
-                                </a>
-                            ))}
-                        </div>
+                        <a 
+                            href="https://www.linkedin.com/in/mohdirtiza20/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-[#58a6ff] transition-all duration-300 hover:scale-110"
+                        >
+                            LinkedIn
+                        </a>
+                        <a 
+                            href="https://github.com/mohd-irtiza20"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-[#58a6ff] transition-all duration-300 hover:scale-110"
+                        >
+                            GitHub
+                        </a>
+                        <a 
+                            href="https://mohdirtiza.vercel.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-[#58a6ff] transition-all duration-300 hover:scale-110"
+                        >
+                            Portfolio
+                        </a>
+                    </div>
                     </footer>
                 </div>
         </div>
